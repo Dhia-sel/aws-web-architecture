@@ -20,7 +20,7 @@ administrative access.
 
 ### Architecture Diagram
 
-![Architecture Diagram](diag.drawio.png.png)
+![Architecture Diagram](diag.drawio.png)
 
 **Flow summary:** Users resolve the domain via Route 53, then reach the 
 application through CloudFront (cached content delivery) and AWS WAF 
@@ -119,7 +119,7 @@ sécurisé sans bastion.
 
 ### Diagramme d'architecture
 
-![Diagramme d'architecture](architecture-diagram.png)
+![Diagramme d'architecture](diag.drawio.png)
 
 **Résumé du flux :** Les utilisateurs résolvent le domaine via Route 53, 
 puis accèdent à l'application via CloudFront (distribution de contenu mis 
